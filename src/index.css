@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-dark-blue text-white;
+  }
+}
+
+@layer components {
+  .button {
+    @apply h-12 w-full text-body-m text-white hover:text-dark-blue bg-primary hover:bg-white rounded-md;
+  }
+}
